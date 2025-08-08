@@ -12,7 +12,6 @@ conn = psycopg2.connect(
 
 cur = conn.cursor()
 
-# Piszesz czyste SQL
 cur.execute("""
     SELECT product_id, SUM(sales) AS total_sales
     FROM sales
@@ -21,7 +20,6 @@ cur.execute("""
     LIMIT 10;
 """)
 
-# Pobranie wyników
 rows = cur.fetchall()
 for row in rows:
     print(row)
