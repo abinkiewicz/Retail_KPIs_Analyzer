@@ -4,9 +4,11 @@ A complete ETL and analytics solution for extracting, transforming, and loading 
 
 ---
 
-📷 **Logo** *(optional — add your logo here)*
+📷 **Logo**
 
-You can explore the ETL workflow and analysis scripts here: `etl_pipeline.ipynb`
+<p align="center">
+  <img src="retail_logo.png" width="350" height="500">
+</p>
 
 ---
 
@@ -67,7 +69,7 @@ The dataset is ideal for calculating business KPIs such as:
 
 - **Python 🐍** — data processing and transformation  
 - **PostgreSQL** — database storage and analytics  
-- **SQLAlchemy** — database connection and ORM  
+- **psycopg2** — database connection  
 - **Pandas** — data manipulation  
 - **Matplotlib / Seaborn** — visualizations  
 - **dotenv** — secure credentials management  
