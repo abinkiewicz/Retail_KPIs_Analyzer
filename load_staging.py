@@ -1,11 +1,11 @@
 import psycopg2
 import pandas as pd
 
-# Połączenie z PostgreSQL
+#add to .env!
 conn = psycopg2.connect(
-    dbname="moja_baza",
+    dbname="my_base",
     user="postgres",
-    password="haslo",
+    password="password",
     host="localhost",
     port="5432"
 )
