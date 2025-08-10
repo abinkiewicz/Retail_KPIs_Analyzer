@@ -25,6 +25,12 @@ By automating the process of cleaning, structuring, and loading sales data into 
 
 As a result, **Retail KPI Analyzer** enables companies to understand their sales performance, optimize marketing spend, and improve customer loyalty, ultimately leading to higher profitability and sustainable growth.
 
+### Example mockup:
+
+<p align="center">
+  <img src="mockup_retailer.png" width="700" height="600">
+</p>
+
 ---
 
 ## 📊 About the Data
@@ -104,7 +110,11 @@ The dataset is ideal for calculating business KPIs such as:
    - Monthly churn and retention rates  
    - Cohort retention curves  
 5. **Visualize** — Create Python-based charts showing KPIs over time.  
-6. **Publish** — Push all code, SQL scripts, and documentation to GitHub with clear instructions for replication.  
+6. **Publish** — Push all code, SQL scripts, and documentation to GitHub with clear instructions for replication.
+
+<p align="center">
+  <img src="etl_retailer.png" width="450" height="800">
+</p>
 
 ---
 
